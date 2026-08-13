@@ -1,0 +1,17 @@
+{
+  "name": "cvargas-claudeskills",
+  "owner": {
+    "name": "Carlos Vargas"
+  },
+  "metadata": {
+    "description": "Carlos Vargas's Claude skills marketplace",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "human",
+      "source": "./plugins/human",
+      "description": "Rewrite text in English or Spanish so it reads like a person wrote it. Strips sentence-level AI tells (vocabulary, punctuation, phrasing) and flags structural ones (stated takeaways, somatic emotion, over-tidy arcs). LatAm Spanish with tú/ustedes, no vos/vosotros."
+    }
+  ]
+}
